@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Site</title>
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- GOOGLE FONTS AND FONT LINKS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- TOP MOST STRIP PART STARTS HERE -->
+        <div class="top-strip flexbox ">
+            <div class="social_media_icon">
+                <i class="fa fa-facebook-square" style=" color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-twitter" style=" color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-instagram" style=" color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-linkedin-square" style=" color: rgb(150, 150, 150)"></i>
+            </div>
+            <p style="color: grey; font-size: 1em; " class="center">
+                FREE SHIPPING THIS WEEK ORDER OVER - $55
+            </p>
+            <div class="select_option">
+                <select name="USD">
+                    <option value="">USD $</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <select name="english" id="language">
+                    <option value="">ENGLISH</option>
+                    <option value="">HINDI</option>
+                    <option value="">SANSKRIT</option>
+                    <option value="">URDU</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- SEARCH BAR PART STARTS HERE -->
+    <header>
+        <div class="wrapper">
+            <div class="second-bar flexbox wrap">
+                <p style="font-size: 3.5em">E-Commerce</p>
+                <div class="search-box  flexbox">
+                    <input type="search" placeholder="Enter your product name..." />
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="shopping-icon">
+                    <i class="fa fa-user" aria-hidden="true" style=" color: rgb(150, 150, 150)"></i>
+                    <i class="fa fa-heart" style=" color: rgb(150, 150, 150)"></i>
+                    <i class="fa fa-shopping-bag" aria-hidden="true" style=" color: rgb(150, 150, 150)"></i>
+                </div>
+            </div>
+        </div>
+        <!-- NAV BAR PART STARTS HERE -->
+        <nav class="navbar flexbox">
+            <ul class="ulwidth">
+                <li><a href="./components/home.html">HOME</a></li>
+                <li><a href="./components/category.html">CATEGORIES</a></li>
+                <li><a href="./components/men's.html">MEN'S</a></li>
+                <li><a href="./components/women's.html">WOMEN'S</a></li>
+                <li><a href="./components/jewellry.html">JEWELLRY</a></li>
+                <li><a href="./components/perfume.html">PERFUME</a></li>
+                <li><a href="./components/blog.html">BLOG</a></li>
+                <li><a href="./components/hotOffers.html">HOT OFFERS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--  BANNER TEXT STARTS FROM HERE -->
+    <div class="main_width ">
+        <div class="banner">
+            <div class="banner_text">
+                <p>Trending Item</p>
+                <h1>WOMEN'S LATEST FASHION SALE</h1>
+                <p style="color: rgb(100, 100, 100); " class="starting">
+                    starting at $ <strong>20.</strong>00
+                </p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <!-- FIRST FOUR BLOCK OF ITEMS STARTS HERE -->
+        <section class="main_widtha flexbox  wrap ">
+            <div class="one_small_block  flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="./icons/dress.svg" alt="" />
+                </div>
+                <div class="top_text">
+                    <div class="seprate flexbox ">
+                        <p>DRESS & FROCK</p>
+                        <p style="color: rgb(150,150,150); font-size:15px;">(53)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <div class="one_small_block  flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="./icons/coat.svg" alt="" />
+                </div>
+                <div class="top_text">
+                    <div class="seprate flexbox">
+                        <p>WINTER WEAR</p>
+                        <p style="color: rgb(150,150,150); font-size:15px;">(58)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- TWO CONTAINER FOR SMALL BLOCK -->
+            <!--THREE CONTAINER FOR SMALL BLOCK -->
+            <div class="one_small_block flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="./icons/glasses.svg" alt="" />
+                </div>
+                <div class="top_text">
+                    <div class="seprate flexbox">
+                        <p>GLASSES & LENS</p>
+                        <p style="color: rgb(150,150,150); font-size:15px;">(68)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- THREE CONTAINER FOR SMALL BLOCK -->
+            <!-- FOUR CONTAINER FOR SMALL BLOCK -->
+            <div class="one_small_block flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="./icons/shorts.svg" alt="" />
+                </div>
+                <div class="top_text">
+                    <div class="seprate flexbox">
+                        <p>SHORTS & JEANS</p>
+                        <p style="color: rgb(150,150,150); font-size:15px;">(84)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- FOUR CONTAINER FOR SMALL BLOCK -->
+        </section>
+        <!-- FOUR SMALL BLOCK BELOW BANNER ENDS HERE -->
+        <!-- ASIDE BLOCK STARTS HERE -->
+        <div class="main_wrapper ">
+            <aside class="asider ">
+                <div class="long_container">
+                    <p style="font-size: 1.9em; margin-left: 7%; margin: 14% 0% ;">CATEGORY</p>
+            
+                    <div class="left_aside_svg  flexbox">
+                        <img src="./icons/dress.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Dress</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                
+                    <div class="left_aside_svg flexbox">
+                        <img src="./icons/shoes.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Footwear</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                
+                    <div class="left_aside_svg flexbox">
+                        <img src="./icons/jewelry.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Jewellery</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            
+                    <div class="left_aside_svg flexbox">
+                        <img src="./icons/perfume.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Perfume</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            
+                    <div class="left_aside_svg flexbox">
+                        <img src="./icons/cosmetics.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Cosmetics</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+    
+                    <div class="left_aside_svg  flexbox">
+                        <img src="./icons/glasses.svg" alt="">
+                        <div class="text_plus flexbox">
+                            <p>Glasses</p>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                  
+
+                </div>
+
+                <!-- LONG CONTAINER OF LEFT SIDE STARTS  -->
+                <div class="long_container">
+                    <p  style="font-size: 1.8em; margin-top: 50px;">BEST SELLER</p>
+                    <div class="one_block flexbox">
+                        <div class="product_image">
+                            <img src="./products/clothes-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Baby Fabric Shoes</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="one_block flexbox">
+                        <div class="product_image">
+                            <img src="./products/clothes-2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Womens T-Shirt</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="one_block flexbox">
+                        <div class="product_image">
+                            <img src="./products/clothes-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Women skirts</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="one_block flexbox">
+                        <div class="product_image">
+                            <img src="./products/4.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Woolen Hat For Men</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                            <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- ASIDE BLOCK ENDS HERE  -->
+            <!-- MAIN PORTION CENTER STARTS FROM HERE -->
+            <main class="main_center flexbox">
+                <!-- 1st LONG CONTAINER OF CENTER SIDE STARTS  -->
+                <div class="long_container_main">
+                    <p style="font-size: 1.9em; margin: 10% 0%; border-bottom:1px solid grey ;">New Arrivals </p>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image ">
+                            <img src="./products/clothes-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Relaxed Short Full Sleep....</p>
+                            <p class="grey">Short</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/clothes-2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Girls Pink Embro Desig...</p>
+                            <p class="grey">Skirts</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/clothes-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Black Floral Wrap Midi..</p>
+                            <p class="grey">Skirts</p>
+                            <p class="amount">$76.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/shirt-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Pure Garment Dyed C..</p>
+                            <p class="grey">Mens Fashion</p>
+                            <p class="amount">$68.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--  2st LONG CONTAINER OF CENTER SIDE STARTS  -->
+                <div class="long_container_main ">
+                    <p style="font-size: 1.9em; margin: 10% 0%; border-bottom:1px solid grey ;">Trending</p>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/sports-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Running & Trekking Sh...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$49.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/sports-2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Trekking & Running Sh...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/sandal-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Womens Party Wear S...</p>
+                            <p class="grey">Party Wear</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/sports-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Sport Claw Women's...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$54.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--   LONG CONTAINER OF CENTER SIDE STARTS  -->
+                <div class="long_container_main">
+                    <p style="font-size: 1.9em; margin: 10% 0%; border-bottom:1px solid grey ;">Top Rated</p>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/watch-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Pocket Watch Leather...</p>
+                            <p class="grey">Watches</p>
+                            <p class="amount">$50.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/jewellery-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Silver Deer Heart Neck..</p>
+                            <p class="grey">Jewellery</p>
+                            <p class="amount">$84.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/perfume.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Titan 100 MI Womens..</p>
+                            <p class="grey">Perfume</p>
+                            <p class="amount">$42.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+            
+                    <div class="one_block_main flexbox">
+                        <div class="product_image">
+                            <img src="./products/belt.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Men's Leather Reversi..</p>
+                            <p class="grey">Belt</p>
+                            <p class="amount">$24.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------ONE BIG PICTURE--------------- -->
+                <section class="sectionbigpic flex">
+                    <h1 style="margin-bottom: 2%; border-bottom:1px solid grey; ">Deal of the Day</h1>
+                    <div class="mid_box_bpic flexbox ">
+                        <div class="shampoo ">
+                            <img src="./products/shampoo.jpg" alt="">
+                        </div>
+                        <div class="all_content">
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:23px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:23px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:23px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:23px; color:orange;"></i>
+                            <i class="fa fa-star-o" style="font-size:23px;color:orange"></i>
+                            <h5>SHAMPOO, CONDITIONER & FACEWASH PACKS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, doloribus Lorem
+                                ipsum dolo amet.</p>
+                            <strong style="color: rgb(255, 113, 135); font-size: 2em;">$150.00</strong> <span
+                                style="color: rgb(180,180,180); font-size: 2em; text-decoration-line: line-through; margin-left: 5%;">$200.00</span>
+                            <br>
+                            <button>ADD TO CART</button>
+                            <div class="flexbox justi-space-b " id="Span">
+                                <span>ALREADY SOLD :<strong>20</strong></span>
+                                <span>AVAILABLE :<strong>40</strong> </span>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="general"></div>
+                            </div>
+                            <p>HURRY UP! OFFER ENDS IN:</p>
+                            <div class="small_square_div">
+                                <div class="small_square"><strong>360</strong><br>Days</div>
+                                <div class="small_square"><strong>24</strong><br>Hours</div>
+                                <div class="small_square"><strong>59</strong><br>Min</div>
+                                <div class="small_square"><strong>00</strong><br>Sec</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ONE BIG PICTURE  -->
+                <section class="small_block_section">
+                    <h1>New Products</h1>
+                    <div class="block_wrapper flexbox">
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items shadow">
+                            <img src="./products/jacket-3.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens JACKETS</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items20
+                            <img src="./products/shirt-1.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">SHIRTS</p>
+                                <p class="grey">Mens SHIRTS</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="items">
+                            <img src="./products/jacket-5.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">COATS</p>
+                                <p class="grey">Mens COATS</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items ">
+                            <img src="./products/clothes-3.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">SKIRTS</p>
+                                <p class="grey">WOMEN SKIRTS</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/shoe-2.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/watch-3.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">WATCHES</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/watch-1.jpg" alt="">
+                            <div class="text_all ">
+                                <p class="name">SMART-WATCHES</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/sandal-1.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">SANDALS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/jacket-1.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items shoes">
+                            <img class="lolo" src="./products/sports-2.jpg" alt="">
+
+                            <div class="text_all">
+                                <p class="name">SPORT-SHOES</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/shoe-1_1.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">SHOES</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BOX ONE STARTS HERE -->
+                        <div class="items">
+                            <img src="./products/shorts-1.jpg" alt="">
+                            <div class="text_all">
+                                <p class="name">SHORTS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:20px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:20px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 20px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <!--  MAIN  BOTTOM MOST PART STARTS FROM HERE -->
+        <section class="threepic wrap flexbox ">
+            <div class="mainleft">
+                <h1>Testimonial</h1>
+                <div class="leftmostpart">
+                    <img src="./images/newsletter.png" alt="">
+                    <p class="nameuser">ALAN DOE</p>
+                    <p class="work">CEO & Founder Invision</p>
+                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size:40px;"></i>
+                    <p>Lorem ipsum dolor sit uptate hic sunt mollitia soluta Lorem ipsum dolor sit amet. rem quos
+                        tenetur ducimus.</p>
+                </div>
+            </div>
+
+            <div class="midpic flexbox">
+                <div class="textforpic">
+                    <p class="discount">20% DISCOUNT</p>
+                    <h1>Summer Collection</h1>
+                    <p class="big">STARTING @ $10</p>
+                    <a href="#">SHOP NOW</a>
+                </div>
+            </div>
+
+            <div class="mainleft">
+                <h1>Our Services</h1>
+                <div class="  rightmostpart">
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship" aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext ">Worldwide Delivery</p>
+                            <p class="bottomtext">For Order Over $100</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship" aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext">Next Day Delivery</p>
+                            <p class="bottomtext">UK Orders Only</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship" aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext">Best Online Support</p>
+                            <p class="bottomtext">Hours:8AM - 11PM</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship" aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext">Return Policy</p>
+                            <p class="bottomtext">Easy & Free Return</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship" aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext">30% Money Back</p>
+                            <p class="bottomtext">For Order Over $100</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- BOTTOM  PICTURE STARTS FROM HERE -->
+        <div class="main_container flexbox ">
+            <div class="one_card">
+                <img src="./images/blog-1.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <div class="one_card card1">
+                <img src="./images/blog-4.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <div class="one_card card2">
+                <img src="./images/blog-3.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <div class="one_card card3">
+                <img src="./images/blog-2.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+
+        </div>
+        <!----------------------FOOTER PART STARTS HERE------------------- -->
+        <footer>
+            <section class="branddirectory">
+                <p style="color: lightpink; font-weight:bold;">BRAND DIRECTORY</p>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+            </section>
+            <section class="verticalli flexbox wrap ">
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="mainhead connectwithus">
+                    <p>FOLLOW US</p>
+                    <ul>
+                        <i class="fa fa-facebook-square" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                        <i class="fa fa-twitter" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                        <i class="fa fa-instagram" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                        <i class="fa fa-linkedin-square" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                    </ul>
+                </div>
+            </section>
+            <section class="extlast">
+                <img src="./images/payment.png" alt="">
+                <p>Copyright &#169; E-Commerce All Right Reserved</p>
+            </section>
+        </footer>
+        <div class="navbarbottom">
+            <i class="fa fa-bars" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-shopping-bag" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-home" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-heart" style="font-size: 1.5em; color: rgb(150, 150, 150)"></i>
+            <i class="fa fa-plus-square" aria-hidden="true"></i>
+
+        </div>
+</body>
+
+</html>
